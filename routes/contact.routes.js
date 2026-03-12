@@ -28,7 +28,7 @@ router.post("/", async (req, res) => {
   secure: true,
   auth: {
     user: "ramkrishnatah9232@gmail.com",
-    pass: "lgub bfxr vlih aiaz"
+    pass: "kwsg dfdl swxj mzwy"
   },
   tls: {
     rejectUnauthorized: false
