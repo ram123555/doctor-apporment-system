@@ -23,16 +23,16 @@ router.post("/", async (req, res) => {
 
     const transporter = nodemailer.createTransport({
 
-      service: "gmail",
-
-      auth: {
-        user: "ramkrishnatah9232@gmail.com",
-        pass: "lgub bfxr vlih aiaz"   // Gmail App Password
-      },
-
-      tls: {
-        rejectUnauthorized: false
-      },
+      host: "smtp.gmail.com",
+  port: 465,
+  secure: true,
+  auth: {
+    user: "ramkrishnatah9232@gmail.com",
+    pass: "lgub bfxr vlih aiaz"
+  },
+  tls: {
+    rejectUnauthorized: false
+  },
 
       connectionTimeout: 10000
 
