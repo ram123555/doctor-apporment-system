@@ -18,7 +18,7 @@ router.post("/", async (req, res) => {
     // ==========================
 
     await resend.emails.send({
-      from: "HealthCare <onboarding@resend.dev>",
+      from: "HealthCare <<anything>@woopama.resend.app>",//<<anything>@woopama.resend.app>
       to: "ramkrishnatah9232@gmail.com",
       subject: "New Contact Message - HealthCare",
 
@@ -73,7 +73,7 @@ router.post("/", async (req, res) => {
 
     await resend.emails.send({
 
-      from: "HealthCare <anything>@ontaefau.resend.app>",
+      from: "HealthCare <onboarding@resend.dev>",
       to: email,
       subject: "Thank you for contacting HealthCare",
 
