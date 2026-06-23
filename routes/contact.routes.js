@@ -3,7 +3,7 @@ const { Resend } = require("resend");
 
 const router = express.Router();
 
-const resend = new Resend("re_da5tHxY1_NDPARPxQifpTNtgfgybaEEt3");
+const resend = new Resend("re_cp5e1LXc_HdRyLr6effMPA4kkzXMwdCML");
 
 router.post("/", async (req, res) => {
 
@@ -73,7 +73,7 @@ router.post("/", async (req, res) => {
 
     await resend.emails.send({
 
-      from: "HealthCare <<anything>@woopama.resend.app>",
+      from: "HealthCare <onboarding@resend.dev>",
       to: email,
       subject: "Thank you for contacting HealthCare",
 
