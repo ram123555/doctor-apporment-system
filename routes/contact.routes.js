@@ -73,7 +73,7 @@ router.post("/", async (req, res) => {
 
     await resend.emails.send({
 
-      from: "HealthCare <onboarding@resend.dev>",
+      from: "HealthCare <anything>@ontaefau.resend.app",
       to: email,
       subject: "Thank you for contacting HealthCare",
 
